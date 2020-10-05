@@ -1,0 +1,29 @@
+/* body,html {
+    margin: 0;
+    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    background: #000;
+} */
+
+.test {
+    display: inline-block;
+    padding: 10px 3px 0px 3px;
+    position: relative;
+}
+
+.test:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: rgb(30,30,30);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.test:hover:after { 
+    width: 100%; 
+    left: 0; 
+}  

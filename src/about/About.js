@@ -7,7 +7,7 @@ const About = () => {
         <AboutContainer>
             <Avatar src={avatar} />
             <Text>
-            Gareth Ng is a front-end developer with emphasis in React.js. 
+            Gareth Ng is a front-end developer who specializes in React.js. 
             </Text>
         </AboutContainer>
     )

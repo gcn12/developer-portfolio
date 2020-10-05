@@ -1,27 +1,35 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Underline.css'
 import { 
     HeaderContainer,
-    About,
+    // About,
     LogoContainer,
     LogoSubtitle,
     LogoTitle, 
-    Contact,
+    // Contact,
+    OptionsContainer,
+    Options,
+    // Underline,
 } from './Header.styles'
-
+ 
 const Header = () => {
     return (
         <HeaderContainer>
             <LogoContainer>
-                <LogoTitle>
-                    <Link to='/developer-portfolio/' style={{textDecoration: 'none'}}>GARETH NG</Link>
-                </LogoTitle>
+                    <Link to='/developer-portfolio/' style={{textDecoration: 'none'}}>
+                        <LogoTitle>GARETH NG</LogoTitle>
+                    </Link>
                 <LogoSubtitle>WEB DEVELOPER</LogoSubtitle>
             </LogoContainer>
-            <About>
-                <Link to='/developer-portfolio/about' style={{textDecoration: 'none'}}>ABOUT</Link>
-            </About>
-            <Contact><Link to='/developer-portfolio/contact' style={{textDecoration: 'none'}}>CONTACT</Link></Contact>
+            <OptionsContainer>
+                {/* <Underline> */}
+                    <Link to='/developer-portfolio/about'><Options className='test'>ABOUT</Options></Link>
+                {/* </Underline> */}
+                {/* <Underline> */}
+                    <Link to='/developer-portfolio/contact'><Options className='test'>CONTACT</Options></Link>
+                {/* </Underline> */}
+            </OptionsContainer>
         </HeaderContainer>
     )
 }
