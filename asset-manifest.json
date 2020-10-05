@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.a5549f61.chunk.css",
-    "main.js": "/developer-portfolio/static/js/main.10dd6f26.chunk.js",
-    "main.js.map": "/developer-portfolio/static/js/main.10dd6f26.chunk.js.map",
+    "main.css": "/developer-portfolio/static/css/main.757adb76.chunk.css",
+    "main.js": "/developer-portfolio/static/js/main.dc82e777.chunk.js",
+    "main.js.map": "/developer-portfolio/static/js/main.dc82e777.chunk.js.map",
     "runtime-main.js": "/developer-portfolio/static/js/runtime-main.dab97c47.js",
     "runtime-main.js.map": "/developer-portfolio/static/js/runtime-main.dab97c47.js.map",
-    "static/js/2.e0e040dc.chunk.js": "/developer-portfolio/static/js/2.e0e040dc.chunk.js",
-    "static/js/2.e0e040dc.chunk.js.map": "/developer-portfolio/static/js/2.e0e040dc.chunk.js.map",
+    "static/js/2.11c527d8.chunk.js": "/developer-portfolio/static/js/2.11c527d8.chunk.js",
+    "static/js/2.11c527d8.chunk.js.map": "/developer-portfolio/static/js/2.11c527d8.chunk.js.map",
     "index.html": "/developer-portfolio/index.html",
-    "precache-manifest.9edb0050789a280c5d550010d9a16e8a.js": "/developer-portfolio/precache-manifest.9edb0050789a280c5d550010d9a16e8a.js",
+    "precache-manifest.50e66a73b43bebaef968380aa58b16aa.js": "/developer-portfolio/precache-manifest.50e66a73b43bebaef968380aa58b16aa.js",
     "service-worker.js": "/developer-portfolio/service-worker.js",
-    "static/css/main.a5549f61.chunk.css.map": "/developer-portfolio/static/css/main.a5549f61.chunk.css.map",
-    "static/js/2.e0e040dc.chunk.js.LICENSE.txt": "/developer-portfolio/static/js/2.e0e040dc.chunk.js.LICENSE.txt",
+    "static/css/main.757adb76.chunk.css.map": "/developer-portfolio/static/css/main.757adb76.chunk.css.map",
+    "static/js/2.11c527d8.chunk.js.LICENSE.txt": "/developer-portfolio/static/js/2.11c527d8.chunk.js.LICENSE.txt",
     "static/media/16.png": "/developer-portfolio/static/media/16.f6d9eb4d.png",
-    "static/media/8biticon.jpg": "/developer-portfolio/static/media/8biticon.b601a87a.jpg",
-    "static/media/github.png": "/developer-portfolio/static/media/github.cefc2023.png",
-    "static/media/instagram.png": "/developer-portfolio/static/media/instagram.0e84d592.png"
+    "static/media/8biticon.jpg": "/developer-portfolio/static/media/8biticon.b601a87a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dab97c47.js",
-    "static/js/2.e0e040dc.chunk.js",
-    "static/css/main.a5549f61.chunk.css",
-    "static/js/main.10dd6f26.chunk.js"
+    "static/js/2.11c527d8.chunk.js",
+    "static/css/main.757adb76.chunk.css",
+    "static/js/main.dc82e777.chunk.js"
   ]
 }
