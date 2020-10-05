@@ -15,6 +15,9 @@ export const LogoTitle = styled.div`
     font-size: 50px;
     color: rgb(30,30,30);
     text-decoration: none;
+    &:hover {
+        color: rgb(120,120,120)
+    }
 `
 
 export const LogoSubtitle= styled.div`
