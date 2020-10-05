@@ -24,8 +24,8 @@ export const EmailInput = styled.input`
 
 export const EmailTextarea = styled.textarea`
     color: rgb(80, 80, 80);
-    min-width: 200px;
     width: 55vw;
+    min-width: 200px;
     height: 140px;
     border: none;
     border-radius: 5px;
