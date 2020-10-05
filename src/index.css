@@ -10,3 +10,51 @@ body {
   background-color: beige;
 }
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+}
+
+#space {
+  width: 90%;
+}
+
+#footer-container {
+  width: 10%;
+  display: flex;
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+  margin: 0% 12% 2% 0%;
+}
+
+#github {
+  height: 35px;
+}
+
+#instagram {
+  height: 35px;
+  /* margin-left: 20px; */
+}
+
+
+#footer li
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+#footer {
+  display: flex;
+  justify-content: flex-end;
+}

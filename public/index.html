@@ -14,6 +14,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+    <link rel="stylesheet" href="../src/index.css">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -27,9 +28,9 @@
     <title>Gareth Ng</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
   </head>
-  <body>
+  <body class='Site'>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root" class='Site-content'></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -41,4 +42,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <footer>
+    <!-- <div id='space'></div>
+    <div id='footer-container'>
+      <a href='https://www.github.com/gcn12'>
+        <img id='github' src="github.png"/>
+      </a>
+      <a href='https://www.instagram.com/gareth.ng'>
+        <img id='instagram' src="instagram.png"/>
+      </a>
+    </div> -->
+    <ul id=footer>
+      <li>
+        <a href='https://www.github.com/gcn12'>
+          <img id='github' src="github.png"/>
+        </a>
+      </li>
+      <li>
+        <a href='https://www.instagram.com/gareth.ng'>
+          <img id='instagram' src="instagram.png"/>
+        </a>
+      </li>
+    </ul>
+  </footer>
 </html>

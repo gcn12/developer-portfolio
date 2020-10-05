@@ -6,15 +6,15 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom'
 import { IndexContainer } from './Index.styles.js'
 import Header from './header/Header'
-import Footer from './footer/Footer'
+// import Footer from './footer/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <IndexContainer>
       <Header />
-      <App />
-      <Footer />
+      <App/>
+      {/* <Footer/> */}
     </IndexContainer>
     </BrowserRouter>
   </React.StrictMode>,

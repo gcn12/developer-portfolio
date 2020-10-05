@@ -1,6 +1,7 @@
 import React from 'react'
 import instagram from './instagram.png'
 import github from './github.png'
+import './Footer.css'
 import { Instagram, 
     Github, 
     FooterContainer, 
