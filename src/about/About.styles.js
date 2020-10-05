@@ -12,5 +12,5 @@ export const Avatar = styled.img`
 
 `
 export const Text = styled.p`
-
+    font-size: 25px;
 `

@@ -47,4 +47,5 @@ export const EmailButton = styled.button`
 export const ErrorMessage = styled.div`
     font-size: 20px;
     color: red;
+    font-weight: 900;
 `

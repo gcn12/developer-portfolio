@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Work = () => {
-    return(
-        <div className='content'>Work</div>
-    )
+class Work extends Component {
+    componentDidMount() {
+        this.props.updateIsContactPage(false)
+        this.props.updateIsAboutPage(false)
+    }
+
+    render() {
+        return(
+            <div className='content'>Work</div>
+        )
+    }
 }
 
 export default Work

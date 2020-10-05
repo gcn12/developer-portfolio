@@ -63,10 +63,13 @@ class Email extends Component {
         return(
         <Form className="contact-form" onSubmit={this.sendEmail}>
             <EmailContainer>
+                <br></br>
                 <label>Name</label>
                 <EmailInput onChange={this.updateName} value={this.state.name} id='form-name' type="text" name="from_name" />
+                <br></br>
                 <label>Email</label>
                 <EmailInput onChange={this.updateEmail} value={this.state.email} id='form-email' type="email" name="reply_to" />
+                <br></br>
                 <label>Message</label>
                 <EmailTextarea onChange={this.updateMessage} value={this.state.message} id='form-message' name="message" />
                 <br></br>
