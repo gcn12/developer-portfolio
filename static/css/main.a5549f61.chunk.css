@@ -1,0 +1,2 @@
+body{margin:0;font-family:"Work Sans",sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:beige}.test{display:inline-block;padding:10px 3px 0;position:relative}.test:after{background:none repeat scroll 0 0 transparent;bottom:0;content:"";display:block;height:1px;left:50%;position:absolute;background:#1e1e1e;transition:width .3s ease 0s,left .3s ease 0s;width:0}.test:hover:after{width:100%;left:0}
+/*# sourceMappingURL=main.a5549f61.chunk.css.map */

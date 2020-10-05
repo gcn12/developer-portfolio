@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/developer-portfolio/static/css/main.bf76acf9.chunk.css",
-    "main.js": "/developer-portfolio/static/js/main.8fb0aaea.chunk.js",
-    "main.js.map": "/developer-portfolio/static/js/main.8fb0aaea.chunk.js.map",
+    "main.css": "/developer-portfolio/static/css/main.a5549f61.chunk.css",
+    "main.js": "/developer-portfolio/static/js/main.10dd6f26.chunk.js",
+    "main.js.map": "/developer-portfolio/static/js/main.10dd6f26.chunk.js.map",
     "runtime-main.js": "/developer-portfolio/static/js/runtime-main.dab97c47.js",
     "runtime-main.js.map": "/developer-portfolio/static/js/runtime-main.dab97c47.js.map",
-    "static/js/2.f8725825.chunk.js": "/developer-portfolio/static/js/2.f8725825.chunk.js",
-    "static/js/2.f8725825.chunk.js.map": "/developer-portfolio/static/js/2.f8725825.chunk.js.map",
+    "static/js/2.e0e040dc.chunk.js": "/developer-portfolio/static/js/2.e0e040dc.chunk.js",
+    "static/js/2.e0e040dc.chunk.js.map": "/developer-portfolio/static/js/2.e0e040dc.chunk.js.map",
     "index.html": "/developer-portfolio/index.html",
-    "precache-manifest.ff4685122b1fce41248494b97a9ac234.js": "/developer-portfolio/precache-manifest.ff4685122b1fce41248494b97a9ac234.js",
+    "precache-manifest.9edb0050789a280c5d550010d9a16e8a.js": "/developer-portfolio/precache-manifest.9edb0050789a280c5d550010d9a16e8a.js",
     "service-worker.js": "/developer-portfolio/service-worker.js",
-    "static/css/main.bf76acf9.chunk.css.map": "/developer-portfolio/static/css/main.bf76acf9.chunk.css.map",
-    "static/js/2.f8725825.chunk.js.LICENSE.txt": "/developer-portfolio/static/js/2.f8725825.chunk.js.LICENSE.txt",
+    "static/css/main.a5549f61.chunk.css.map": "/developer-portfolio/static/css/main.a5549f61.chunk.css.map",
+    "static/js/2.e0e040dc.chunk.js.LICENSE.txt": "/developer-portfolio/static/js/2.e0e040dc.chunk.js.LICENSE.txt",
     "static/media/16.png": "/developer-portfolio/static/media/16.f6d9eb4d.png",
     "static/media/8biticon.jpg": "/developer-portfolio/static/media/8biticon.b601a87a.jpg",
     "static/media/github.png": "/developer-portfolio/static/media/github.cefc2023.png",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dab97c47.js",
-    "static/js/2.f8725825.chunk.js",
-    "static/css/main.bf76acf9.chunk.css",
-    "static/js/main.8fb0aaea.chunk.js"
+    "static/js/2.e0e040dc.chunk.js",
+    "static/css/main.a5549f61.chunk.css",
+    "static/js/main.10dd6f26.chunk.js"
   ]
 }
