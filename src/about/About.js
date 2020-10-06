@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
-import avatar from './8biticon.jpg'
-import { Avatar, AboutContainer, Text, FilmLink, } from './About.styles'
+// import avatar from './8biticon.jpg'
+import { 
+    // Avatar, 
+    AboutContainer, 
+    Text, 
+    FilmLink, 
+} from './About.styles'
 
 class About extends Component {
 
@@ -13,9 +18,10 @@ class About extends Component {
     render() {
         return(
             <AboutContainer>
-                <Avatar src={avatar} />
+                {/* <Avatar src={avatar} /> */}
                 <Text>
-                Gareth Ng is a front-end developer who specializes in React.js. He previously worked in the film industry as a camera assistant and <FilmLink href='https://gcn12.github.io/film-portfolio/films'>cinematographer</FilmLink>.
+                    <p>Gareth Ng is a front-end developer who specializes in React.js.</p>
+                    <p>He previously worked in the film industry as a camera assistant and <FilmLink href='https://gcn12.github.io/film-portfolio/films'>cinematographer</FilmLink>.</p>
                 </Text>
             </AboutContainer>
         )

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { WorkContainer } from './Work.styles'
+import { workAssets } from './WorkAssets'
+import { WorkContainer, Icon, Title } from './Work.styles'
 
 class Work extends Component {
     componentDidMount() {
@@ -8,11 +9,19 @@ class Work extends Component {
         this.props.updateIsCV(false)
     }
 
+
     render() {
         return(
-            <div>
-                <WorkContainer>Work</WorkContainer>
-            </div>
+            <WorkContainer>
+                {Object.values(workAssets).map((work, index) => {
+                    return(
+                        <div>
+                            <a href={work.link}><Icon key={index} src={work.icon} alt='project icons'/></a>
+                            <Title>{work.title}</Title>
+                        </div>
+                    )
+                })}
+            </WorkContainer>
         )
     }
 }
