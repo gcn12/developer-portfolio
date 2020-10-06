@@ -1,18 +1,32 @@
 import styled from 'styled-components'
 
 export const WorkContainer = styled.div`
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    /* align-items: center; */
+    @media (max-width: 1100px) {
+        justify-content: center;
+    }
+    @media (min-width: 1100px) {
+        padding-top: 50px;
+    }
 `
 
 export const Icon = styled.img`
-    width: 20vw;
-    height: 20vw;
-    min-width: 40px;
-    min-height: 40px;
+    @media(min-width: 1100px){
+        width: 20vw;
+        height: 20vw;
+    }
+    @media(max-width: 1100px){
+        width: 40vw;
+        height: 40vw;
+        min-height: 300px;
+        min-width: 300px;
+    }
 `
 
 export const Title = styled.div`
     font-size: 20px;
+    padding-bottom: 20px;
 `
