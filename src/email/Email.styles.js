@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Form = styled.form`
     width: 100%;
-    min-height: 65vh;
+    min-height: 55vh;
     display: flex;
     justify-content: center;
 `

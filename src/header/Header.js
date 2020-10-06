@@ -27,6 +27,9 @@ const Header = (props) => {
                     <li>
                         <Link to='/developer-portfolio/contact'><Options className={`underline ${props.isContactPage ? 'underline2' : null}`}>CONTACT</Options></Link>
                     </li>
+                    <li>
+                        <Link to='/developer-portfolio/cv'><Options className={`underline ${props.isCV ? 'underline2' : null}`}>CV</Options></Link>
+                    </li>
                 </OptionsContainer>
             </div>
             <LogoSubtitle>WEB DEVELOPER</LogoSubtitle>

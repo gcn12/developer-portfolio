@@ -20,6 +20,7 @@ export const LogoSubtitle= styled.div`
         display: none;
     }
     font-size: 20px;
+    font-weight: 500;
 `
 
 export const Options = styled.div`

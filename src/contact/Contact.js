@@ -6,6 +6,7 @@ class Contact extends Component {
     componentDidMount() {
         this.props.updateIsContactPage(true)
         this.props.updateIsAboutPage(false)
+        this.props.updateIsCV(false)
     }
 
     render(){
