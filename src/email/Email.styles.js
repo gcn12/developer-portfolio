@@ -15,7 +15,7 @@ export const EmailContainer = styled.div`
 
 export const EmailInput = styled.input`
     width: 55vw;
-    min-width: 200px;
+    min-width: 300px;
     height: 50px;
     color: rgb(80, 80, 80);
     font-size: 20px;
