@@ -8,6 +8,7 @@ import {
     EmailButton,
     Form,
     ErrorMessage,
+    MessageSent,
 } from './Email.styles'
 
 
@@ -17,6 +18,7 @@ class Email extends Component {
         name: '',
         message: '',
         allFields: true,
+        isSent: false,
     }
 
     sendEmail = (e) => {
@@ -80,6 +82,11 @@ class Email extends Component {
                     null
                     :
                     <ErrorMessage>All fields must be filled</ErrorMessage>
+                }
+                {this.state.isSent ? 
+                <MessageSent>Message has been sent</MessageSent>
+                :
+                null
                 }
             <EmailButton type="submit" >SEND</EmailButton>
             </EmailContainer>

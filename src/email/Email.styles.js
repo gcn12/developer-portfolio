@@ -56,3 +56,9 @@ export const ErrorMessage = styled.div`
     color: red;
     font-weight: 900;
 `
+
+export const MessageSent = styled.div`
+    font-size: 20px;
+    color: rgb(70,70,70);
+    font-weight: 900;
+`
