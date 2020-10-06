@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 
 export const LogoTitle = styled.div`
+    @media (max-width: 700px) {
+        font-size: 40px;
+    }
+    @media (max-width: 360px) {
+        font-size: 30px;
+    }
     font-size: 50px;
     color: rgb(30,30,30);
     text-decoration: none;
@@ -19,11 +25,16 @@ export const LogoSubtitle= styled.div`
 export const Options = styled.div`
     font-size: 20px;
     color: rgb(30,30,30);
+    margin: 15px;
 `
 
 export const OptionsContainer = styled.div`
     display: flex;
     justify-content: center;
+`
+
+export const UL = styled.ul`
+    padding: 0;
 `
 
 export const UnderlineStatic = styled.div`

@@ -74,9 +74,9 @@ class Email extends Component {
                 <EmailTextarea onChange={this.updateMessage} value={this.state.message} id='form-message' name="message" />
                 <br></br>
                 {this.state.allFields ? 
-                null
-                :
-                <ErrorMessage>All fields must be filled</ErrorMessage>
+                    null
+                    :
+                    <ErrorMessage>All fields must be filled</ErrorMessage>
                 }
             <EmailButton type="submit" >SEND</EmailButton>
             </EmailContainer>

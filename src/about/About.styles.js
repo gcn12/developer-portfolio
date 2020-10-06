@@ -2,10 +2,9 @@ import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
     display: flex;
-    // padding-left: 200px;
-    padding-top: 70px;
-    // align-items: center;
     justify-content: center;
+    align-items: center;
+    min-height: 65vh;
 `
 
 export const Avatar = styled.img`

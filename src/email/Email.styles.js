@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const Form = styled.form`
     width: 100%;
+    min-height: 65vh;
+    // height: 65vh;
     display: flex;
     justify-content: center;
 `
@@ -43,7 +45,7 @@ export const EmailButton = styled.button`
         background-color: rgb(50,50,50);
     }
 `
-
+ 
 export const ErrorMessage = styled.div`
     font-size: 20px;
     color: red;

@@ -5,7 +5,7 @@
 
 .underline {
     display: inline-block;
-    padding: 10px 3px 0px 3px;
+    /* padding: 10px 3px 0px 3px; */
     position: relative;
 }
 
@@ -52,7 +52,7 @@
 
 .underline2 {
     display: inline-block;
-    padding: 10px 3px 0px 3px;
+    /* padding: 10px 3px 0px 3px; */
     position: relative;
 }
 

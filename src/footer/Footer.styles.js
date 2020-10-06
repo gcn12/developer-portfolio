@@ -15,5 +15,5 @@ export const Instagram = styled.img`
 
 export const Github = styled.img`
     height: 35px;
-    margin-right: 15px;
+    // margin-right: 15px;
 `

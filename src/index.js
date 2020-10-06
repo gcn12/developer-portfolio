@@ -10,7 +10,6 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
     <IndexContainer>
-      
       <App/>
       {/* <Footer/> */}
     </IndexContainer>

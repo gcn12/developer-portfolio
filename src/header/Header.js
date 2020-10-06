@@ -6,11 +6,12 @@ import {
     LogoTitle, 
     Options,
     OptionsContainer,
+    UL,
 } from './Header.styles'
  
 const Header = (props) => {
     return (
-        <ul id='header-container'>
+        <UL id='header-container'>
             <div className='flex'> 
                 <li>
                     <Link to='/developer-portfolio/' style={{textDecoration: 'none'}}>
@@ -29,7 +30,7 @@ const Header = (props) => {
                 </OptionsContainer>
             </div>
             <LogoSubtitle>WEB DEVELOPER</LogoSubtitle>
-        </ul>
+        </UL>
     )
 }
 
