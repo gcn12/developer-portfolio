@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Form = styled.form`
     width: 100%;
     min-height: 65vh;
-    // height: 65vh;
     display: flex;
     justify-content: center;
 `
@@ -26,8 +25,8 @@ export const EmailInput = styled.input`
 
 export const EmailTextarea = styled.textarea`
     color: rgb(80, 80, 80);
-    width: 55vw;
-    min-width: 200px;
+    // width: 55vw;
+    // min-width: 400px;
     height: 140px;
     border: none;
     border-radius: 5px;
