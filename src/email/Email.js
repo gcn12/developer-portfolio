@@ -32,7 +32,10 @@ class Email extends Component {
             document.getElementById('form-email').value=''
             document.getElementById('form-message').value=''
             this.setState({
-                allFields: true
+                allFields: true,
+                message: '',
+                email: '',
+                name: '',
             })
         }else{
             this.setState({
