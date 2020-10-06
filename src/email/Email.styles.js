@@ -21,6 +21,9 @@ export const EmailInput = styled.input`
     font-size: 20px;
     border: none;
     border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 `
 
 export const EmailTextarea = styled.textarea`
@@ -31,6 +34,9 @@ export const EmailTextarea = styled.textarea`
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 `
 
 export const EmailButton = styled.button`
