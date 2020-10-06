@@ -29,7 +29,7 @@ export const EmailInput = styled.input`
 export const EmailTextarea = styled.textarea`
     color: rgb(80, 80, 80);
     width: 55vw;
-    min-width: 200px;
+    min-width: 300px;
     height: 140px;
     border: none;
     border-radius: 5px;
