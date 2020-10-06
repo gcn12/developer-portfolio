@@ -1,6 +1,10 @@
+html {
+    margin: 0% 15%;
+}
+
 .Site {
     display: flex;
-    min-height: 100vh;
+    min-height: 98vh;
     flex-direction: column;
 }
 
@@ -8,20 +12,15 @@
     flex: 1;    
 }
 
+#testtest{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 footer {
     width: 100%;
     display: flex;
-}
-
-#space {
-    width: 90%;
-}
-
-#footer-container {
-    width: 10%;
-    display: flex;
-    justify-content: space-between;
-    margin: 0% 12% 2% 0%;
 }
 
 #github {
@@ -30,6 +29,7 @@ footer {
 
 #instagram {
     height: 35px;
+    margin-left: 15px;
 }
 
 #linkedin {
@@ -40,11 +40,10 @@ footer {
 #footer li {
     display: inline;
     list-style-type: none;
-    padding-right: 15px;
 }
 
 #footer {
-    padding-left: 12%;
+    padding: 0;
     display: flex;
     justify-content: flex-end;
 }
