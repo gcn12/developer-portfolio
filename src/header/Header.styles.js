@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const LogoTitle = styled.div`
-    @media (max-width: 700px) {
+    @media (max-width: 815px) {
         font-size: 40px;
     }
     @media (max-width: 360px) {
@@ -16,11 +16,12 @@ export const LogoTitle = styled.div`
 `
 
 export const LogoSubtitle= styled.div`
-    @media (max-width: 700px){
+    @media (max-width: 815px){
         display: none;
     }
     font-size: 20px;
     font-weight: 500;
+    padding-left: 5px;
 `
 
 export const Options = styled.div`

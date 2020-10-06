@@ -15,7 +15,7 @@ class About extends Component {
             <AboutContainer>
                 <Avatar src={avatar} />
                 <Text>
-                Gareth Ng is a front-end developer who specializes in React.js. He previously worked in the film industry as a camera assistant and <FilmLink href='https://gcn12.github.io/film-portfolio'>cinematographer</FilmLink>.
+                Gareth Ng is a front-end developer who specializes in React.js. He previously worked in the film industry as a camera assistant and <FilmLink href='https://gcn12.github.io/film-portfolio/films'>cinematographer</FilmLink>.
                 </Text>
             </AboutContainer>
         )
