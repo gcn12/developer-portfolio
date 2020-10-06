@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Email from '../email/Email'
-import { ContactContainer } from './Contact.styles'
+import { ContactContainer, NoCopy, EmailText } from './Contact.styles'
 
 class Contact extends Component {
     componentDidMount() {
@@ -12,7 +12,12 @@ class Contact extends Component {
     render(){
         return(
             <div>
-                <ContactContainer>e: garethcng@gmail.com</ContactContainer>
+                <ContactContainer>
+                    <NoCopy>e:</NoCopy>
+                    <EmailText>
+                    garethcng@gmail.com
+                    </EmailText>
+                </ContactContainer>
                 <Email />
             </div>
         )
