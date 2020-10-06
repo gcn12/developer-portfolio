@@ -1,7 +1,7 @@
 export const workAssets = {
     cubeclock: {
        icon: 'https://live.staticflickr.com/65535/50428255193_e8c0d54b4c.jpg', 
-       title: 'CubeClock',
+       title: 'CubeClock Rubik\'s Cube Timer',
        link: 'https://www.cubeclock.net'
     },
     filmportfolio: {

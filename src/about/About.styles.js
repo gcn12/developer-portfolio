@@ -26,6 +26,9 @@ export const Text = styled.p`
 
 export const FilmLink = styled.a`
     text-decoration: none;
-    color: rgb(130,130,130);
+    color: rgb(90,170,90);
     font-weight: 700;
+    &:hover{
+        color: rgb(30, 30, 30);
+    }
 `
