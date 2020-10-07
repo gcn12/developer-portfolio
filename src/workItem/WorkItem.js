@@ -5,6 +5,7 @@ import {
     Container,
     Image,
     ImageMobile,
+    Link,
 } from './WorkItem.styles'
 
 
@@ -28,6 +29,8 @@ const ElementMap = {
     div: 'div',
     img: Image,
     imgMobile: ImageMobile,
+    a: 'a',
+    link: Link,
 }
 
 const renderer = (item) => {
@@ -35,6 +38,7 @@ const renderer = (item) => {
         ElementMap[item.type],
         {
             src: item.src,
+            href: item.href,
         },
         item.value && 
         (typeof item.value === 'string' ? item.value : item.value.map(i => renderer(i)))
@@ -44,7 +48,7 @@ const renderer = (item) => {
 const WorkItem = (props) => {
     return(
         <div>
-            {renderer(workItemAssets[props.match.params.workName])}
+            {renderer(workItemAssets[props.match.params.workname])}
         </div>
     )
 }
