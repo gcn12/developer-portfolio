@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import { workAssets } from './WorkAssets'
 import { WorkContainer, Icon, Title } from './Work.styles'
 
@@ -15,8 +16,8 @@ class Work extends Component {
             <WorkContainer>
                 {Object.values(workAssets).map((work, index) => {
                     return(
-                        <div>
-                            <a href={work.link}><Icon key={index} src={work.icon} alt='project icons'/></a>
+                        <div key={index}>
+                            <Link to={`work/${Object.keys(workAssets)[index]}`}><Icon key={index} src={work.icon} alt='project icons'/></Link>
                             <Title>{work.title}</Title>
                         </div>
                     )

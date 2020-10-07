@@ -8,4 +8,5 @@ export const Container = styled.div`
 
 export const Resume = styled.iframe`
     height: calc(100vh - 220px);
+    min-height: 400px;
 `
