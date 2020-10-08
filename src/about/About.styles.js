@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const AboutContainer = styled.div`
     @media (max-width: 700px){
         flex-direction: column;
+        margin: 0 4%;
     }
     display: flex;
     justify-content: center;
