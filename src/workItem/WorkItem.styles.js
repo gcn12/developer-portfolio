@@ -41,7 +41,7 @@ export const Image = styled.img`
     box-shadow: 5px 10px 15px rgba(40, 40, 40, .4);
     margin: 15px 0;
     @media (max-width: 820px) {
-        padding: 10px 0;
+        margin: 10px 0;
         width: 95%;
     }
 `
@@ -52,7 +52,7 @@ export const ImageMobile = styled.img`
     width: 70%; 
     margin: 15px 0;
     @media (max-width: 820px) {
-        padding: 10px 0;
+        margin: 10px 0;
         width: 80%;
     }
 `
