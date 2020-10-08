@@ -11,11 +11,11 @@ export const Title = styled.div`
         font-size: 20px;
     }
     @media (max-width: 400px){
-        font-size: 12px;
+        font-size: 17px;
     }
     text-transform: uppercase;
     align-self: center;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
 `
 
 export const Container = styled.div`
@@ -29,40 +29,48 @@ export const TopImage = styled.img`
     width: 130%; 
     padding: 20px 0;
     @media (max-width: 820px) {
-        width: 130%;
+        width: 95%;
     }
 `
 
 export const Image = styled.img`
     align-self: center;
     width: 100%; 
-    padding: 20px 0;
+    padding: 15px 0;
     @media (max-width: 820px) {
-        width: 130%;
+        padding: 10px 0;
+        width: 85%;
     }
 `
 
 export const ImageMobile = styled.img`
     align-self: center;
-    width: 50%; 
-    padding: 20px 0;
+    width: 70%; 
+    padding: 15px 0;
     @media (max-width: 820px) {
-        width: 100%;
+        padding: 10px 0;
+        width: 80%;
     }
 `
 
 export const Link = styled.div`
     @media (max-width: 820px){
         font-size: 18px;
+        justify-content: center;
+        margin-left: 0%;
     }
     @media (max-width: 550px){
         font-size: 14px;
     }
+    margin-left: 10%;
     font-size: 25px;
     display: flex;
     `
 
 export const URL = styled.a`
+    @media (max-width: 820px){
+        padding-left: 5px;
+    }
     padding-left: 10px;
     text-decoration: none;
     color: rgb(90,170,90);

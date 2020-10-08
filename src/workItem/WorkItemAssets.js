@@ -38,31 +38,31 @@ export const workItemAssets = {
                     }
                 ]
             },
-            {
-                type: 'linkButtonContainer',
-                value: [
-                    {
-                        type: 'a',
-                        href: 'https://cubeclock.net',
-                        value: [
-                            {
-                                type: 'linkButton',
-                                value: 'App'
-                            },
-                        ]
-                    },
-                    {
-                        type: 'a',
-                        href: 'https://github.com/gcn12/cubeclock',
-                        value: [
-                            {
-                                type: 'linkButton',
-                                value: 'Respository'
-                            }
-                        ]
-                    }
-                ]
-            },
+            // {
+            //     type: 'linkButtonContainer',
+            //     value: [
+            //         {
+            //             type: 'a',
+            //             href: 'https://cubeclock.net',
+            //             value: [
+            //                 {
+            //                     type: 'linkButton',
+            //                     value: 'App'
+            //                 },
+            //             ]
+            //         },
+            //         {
+            //             type: 'a',
+            //             href: 'https://github.com/gcn12/cubeclock',
+            //             value: [
+            //                 {
+            //                     type: 'linkButton',
+            //                     value: 'Respository'
+            //                 }
+            //             ]
+            //         }
+            //     ]
+            // },
             {
                 type: 'imgMobile',
                 src: 'https://live.staticflickr.com/65535/50429793552_84481b7ecc_h.jpg'
