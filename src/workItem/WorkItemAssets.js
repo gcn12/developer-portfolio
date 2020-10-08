@@ -7,20 +7,59 @@ export const workItemAssets = {
                 value: 'CubeClock: Rubik\'s Cube Timer',
             },
             {
-                type: 'img',
+                type: 'topImage',
                 src: 'https://live.staticflickr.com/65535/50429619721_8737db8502_k.jpg'
             },
             {
-                type: 'link',
+                type: 'linkContainer',
                 value: [
                     {
                         type: 'div',
-                        value: 'view'
+                        value: 'App:'
                     },
+                    {
+                        type: 'url',
+                        href: 'https://cubeclock.net',
+                        value: 'https://cubeclock.net'
+                    }
+                ]
+            },
+            {
+                type: 'linkContainer',
+                value: [
+                    {
+                        type: 'div',
+                        value: 'Code:'
+                    },
+                    {
+                        type: 'url',
+                        href: 'https://github.com/gcn12/cubeclock',
+                        value: 'https://github.com/gcn12/cubeclock'
+                    }
+                ]
+            },
+            {
+                type: 'linkButtonContainer',
+                value: [
                     {
                         type: 'a',
                         href: 'https://cubeclock.net',
-                        value: 'here'
+                        value: [
+                            {
+                                type: 'linkButton',
+                                value: 'App'
+                            },
+                        ]
+                    },
+                    {
+                        type: 'a',
+                        href: 'https://github.com/gcn12/cubeclock',
+                        value: [
+                            {
+                                type: 'linkButton',
+                                value: 'Respository'
+                            }
+                        ]
                     }
                 ]
             },
@@ -50,8 +89,36 @@ export const workItemAssets = {
                 value: 'Cinematography Portfolio'
             },
             {
-                type: 'img',
+                type: 'topImage',
                 src: 'https://live.staticflickr.com/65535/50429616091_b8f5e8bfa1_k.jpg'
+            },
+            {
+                type: 'linkContainer',
+                value: [
+                    {
+                        type: 'div',
+                        value: 'App:'
+                    },
+                    {
+                        type: 'url',
+                        href: 'http://gcn12.github.io/film-portfolio/',
+                        value: 'http://gcn12.github.io/film-portfolio/'
+                    }
+                ]
+            },
+            {
+                type: 'linkContainer',
+                value: [
+                    {
+                        type: 'div',
+                        value: 'Code:'
+                    },
+                    {
+                        type: 'url',
+                        href: 'https://github.com/gcn12/film-portfolio',
+                        value: 'https://github.com/gcn12/film-portfolio'
+                    }
+                ]
             },
             {
                 type: 'img',
@@ -79,8 +146,36 @@ export const workItemAssets = {
                 value: 'Messaging App',
             },
             {
-                type: 'img',
+                type: 'topImage',
                 src: 'https://live.staticflickr.com/65535/50429619531_fa24d90740_k.jpg',
+            },
+            {
+                type: 'linkContainer',
+                value: [
+                    {
+                        type: 'div',
+                        value: 'App:'
+                    },
+                    {
+                        type: 'url',
+                        href: 'http://gcn12.github.io/messaging-app/',
+                        value: 'http://gcn12.github.io/messaging-app/'
+                    }
+                ]
+            },
+            {
+                type: 'linkContainer',
+                value: [
+                    {
+                        type: 'div',
+                        value: 'Code:'
+                    },
+                    {
+                        type: 'url',
+                        href: 'https://github.com/gcn12/messaging-app',
+                        value: 'https://github.com/gcn12/messaging-app'
+                    }
+                ]
             },
             {
                 type: 'imgMobile',
@@ -92,16 +187,4 @@ export const workItemAssets = {
             },
         ]
     },
-}
-
-export const workItemMap = {
-    cubeclock: [
-        'div'
-    ],
-    filmportfolio: [
-        'div'
-    ],
-    messaging: [
-        'div'
-    ],
 }
