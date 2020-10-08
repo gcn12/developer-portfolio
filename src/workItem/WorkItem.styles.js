@@ -100,3 +100,29 @@ export const LinkButton = styled.button`
     }
     text-transform: uppercase;
 `
+
+export const CreatedWithContainer = styled.div`
+    display: flex;
+    justify-content: center;
+`
+
+export const CreatedWith = styled.div`
+    @media (min-width: 817px) {
+        padding: 0 20% 0 20%;
+        font-size: 30px;
+    }
+`
+
+export const Line = styled.div`
+    border: 1px solid rgba(40, 40, 40, .4);
+    border-style: none none solid none;
+    margin: 2% 0;
+`
+
+export const Paragraph = styled.div`
+    @media (min-width: 817px) {
+        padding: 0 10%;
+        font-size: 20px;
+    }
+    padding: 0 2%;
+`

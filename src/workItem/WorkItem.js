@@ -10,6 +10,10 @@ import {
     LinkButtonContainer,
     LinkButton,
     TopImage,
+    CreatedWith,
+    Line,
+    CreatedWithContainer,
+    Paragraph,
 } from './WorkItem.styles'
 
 const ElementMap = {
@@ -24,6 +28,10 @@ const ElementMap = {
     linkButton: LinkButton,
     linkButtonContainer: LinkButtonContainer,
     topImage: TopImage,
+    createdWithContainer: CreatedWithContainer,
+    createdWith: CreatedWith,
+    line: Line,
+    paragraph: Paragraph,
 }
 
 const renderer = (item) => {

@@ -11,6 +11,18 @@ export const workItemAssets = {
                 src: 'https://live.staticflickr.com/65535/50429619721_8737db8502_k.jpg'
             },
             {
+                type: 'createdWithContainer',
+                value: [
+                    {
+                        type: 'createdWith',
+                        value: 'Created with React.js, PostgresQL, Chart.js.'
+                    },
+                ]
+            },
+            {
+                type: 'line',
+            },
+            {
                 type: 'linkContainer',
                 value: [
                     {
@@ -37,6 +49,13 @@ export const workItemAssets = {
                         value: 'https://github.com/gcn12/cubeclock'
                     }
                 ]
+            },
+            {
+                type: 'line',
+            },
+            {
+                type: 'paragraph',
+                value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
             },
             // {
             //     type: 'linkButtonContainer',
@@ -121,6 +140,10 @@ export const workItemAssets = {
                 ]
             },
             {
+                type: 'paragraph',
+                value: 'Created with React.js, Redux, React-Router'
+            },
+            {
                 type: 'img',
                 src: 'https://live.staticflickr.com/65535/50429793522_de68b4dc61_k.jpg'
             },
@@ -176,6 +199,10 @@ export const workItemAssets = {
                         value: 'https://github.com/gcn12/messaging-app'
                     }
                 ]
+            },
+            {
+                type: 'paragraph',
+                value: 'Created with React.js, Firebase, Styled Components, Redux'
             },
             {
                 type: 'imgMobile',
