@@ -55,7 +55,14 @@ export const workItemAssets = {
             },
             {
                 type: 'paragraph',
-                value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+                value: `
+                CubeClock is a Rubik's Cube timer that supports all World Cube Association puzzles. 
+                It was created with extensive input from cube solving enthusiasts and sets out to 
+                include features missing in other timers. CubeClock utilizes a username and password
+                system, which syncs solve data across all devices. It's a progessive web app that can
+                work offline, and update to the database when internet access is available. The timer
+                also offers a number of analytic charts to help users visualize their progress. 
+                `
             },
             // {
             //     type: 'linkButtonContainer',
@@ -112,6 +119,13 @@ export const workItemAssets = {
                 src: 'https://live.staticflickr.com/65535/50429616091_b8f5e8bfa1_k.jpg'
             },
             {
+                type: 'createdWith',
+                value: 'Created with React.js, Redux, React-Router'
+            },
+            {
+                type: 'line',
+            },
+            {
                 type: 'linkContainer',
                 value: [
                     {
@@ -140,9 +154,12 @@ export const workItemAssets = {
                 ]
             },
             {
-                type: 'paragraph',
-                value: 'Created with React.js, Redux, React-Router'
+                type: 'line',
             },
+            // {
+            //     type: 'paragraph',
+            //     value: ''
+            // },
             {
                 type: 'img',
                 src: 'https://live.staticflickr.com/65535/50429793522_de68b4dc61_k.jpg'
