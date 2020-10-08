@@ -190,6 +190,13 @@ export const workItemAssets = {
                 src: 'https://live.staticflickr.com/65535/50429619531_fa24d90740_k.jpg',
             },
             {
+                type: 'paragraph',
+                value: 'Created with React.js, Firebase, Styled Components, Redux'
+            },
+            {
+                type: 'line',
+            },
+            {
                 type: 'linkContainer',
                 value: [
                     {
@@ -218,8 +225,7 @@ export const workItemAssets = {
                 ]
             },
             {
-                type: 'paragraph',
-                value: 'Created with React.js, Firebase, Styled Components, Redux'
+                type: 'line',
             },
             {
                 type: 'imgMobile',
