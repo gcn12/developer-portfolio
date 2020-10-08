@@ -1,18 +1,19 @@
 import styled from 'styled-components'
 
 export const Title = styled.div`
-    @media (min-width: 820px){
+    @media (min-width: 817px){
         font-size: 30px;
     }
-    @media (max-width: 820px){
-        font-size: 25px;
+    @media (max-width: 817px){
+        /* font-size: 25px; */
+        font-size: 5vw;
     }
-    @media (max-width: 600px){
+    /* @media (max-width: 600px){
         font-size: 20px;
     }
     @media (max-width: 400px){
         font-size: 17px;
-    }
+    } */
     text-transform: uppercase;
     align-self: center;
     /* padding-bottom: 25px; */
@@ -39,7 +40,7 @@ export const Image = styled.img`
     padding: 15px 0;
     @media (max-width: 820px) {
         padding: 10px 0;
-        width: 85%;
+        width: 95%;
     }
 `
 
