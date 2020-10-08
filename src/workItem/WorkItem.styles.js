@@ -28,7 +28,8 @@ export const Container = styled.div`
 export const TopImage = styled.img`
     align-self: center;
     width: 130%; 
-    padding: 20px 0;
+    box-shadow: 5px 10px 15px rgba(40, 40, 40, .4);
+    margin: 20px 0;
     @media (max-width: 820px) {
         width: 95%;
     }
@@ -37,7 +38,8 @@ export const TopImage = styled.img`
 export const Image = styled.img`
     align-self: center;
     width: 100%; 
-    padding: 15px 0;
+    box-shadow: 5px 10px 15px rgba(40, 40, 40, .4);
+    margin: 15px 0;
     @media (max-width: 820px) {
         padding: 10px 0;
         width: 95%;
@@ -45,9 +47,10 @@ export const Image = styled.img`
 `
 
 export const ImageMobile = styled.img`
+    box-shadow: 5px 10px 15px rgba(40, 40, 40, .4);
     align-self: center;
     width: 70%; 
-    padding: 15px 0;
+    margin: 15px 0;
     @media (max-width: 820px) {
         padding: 10px 0;
         width: 80%;
