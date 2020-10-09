@@ -13,6 +13,19 @@ export const WorkContainer = styled.div`
     }
 `
 
+// export const Container = styled.div`
+//     @media (max-width: 1000px) {
+//         margin: 0% 10%;
+//     }
+
+// `
+
+// @media only screen and (max-width: 1000px){
+//     html {
+//         margin: 0% 5%;
+//     }
+// }
+
 export const Icon = styled.img`
     @media(min-width: 1100px){
         width: 20vw;

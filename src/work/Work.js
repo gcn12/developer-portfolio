@@ -1,7 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { workAssets } from './WorkAssets'
-import { WorkContainer, Icon, Title } from './Work.styles'
+import { 
+    WorkContainer, 
+    Icon, 
+    Title, 
+    // Container 
+} from './Work.styles'
 
 class Work extends Component {
     componentDidMount() {
@@ -13,16 +18,18 @@ class Work extends Component {
 
     render() {
         return(
-            <WorkContainer>
-                {Object.values(workAssets).map((work, index) => {
-                    return(
-                        <div key={index}>
-                            <Link to={`work/${Object.keys(workAssets)[index]}`}><Icon key={index} src={work.icon} alt='project icons'/></Link>
-                            <Title>{work.title}</Title>
-                        </div>
-                    )
-                })}
-            </WorkContainer>
+            // <Container>
+                <WorkContainer>
+                    {Object.values(workAssets).map((work, index) => {
+                        return(
+                            <div key={index}>
+                                <Link to={`work/${Object.keys(workAssets)[index]}`}><Icon key={index} src={work.icon} alt='project icons'/></Link>
+                                <Title>{work.title}</Title>
+                            </div>
+                        )
+                    })}
+                </WorkContainer>
+            // </Container>
         )
     }
 }

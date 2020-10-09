@@ -17,7 +17,7 @@ export const Avatar = styled.img`
     width: 40vw;
     padding-right: 3vw;
 `
-export const Text = styled.p`
+export const Text = styled.div`
     @media (max-width: 700px){
         font-size: 20px;
     }

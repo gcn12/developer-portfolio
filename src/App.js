@@ -14,6 +14,13 @@ class App extends Component {
     isContactPage: false,
     isAboutPage: false,
     isCV: false,
+    isWorkItemLoaded: false,
+  }
+
+  workItemLoaded = () => {
+    this.setState({
+      isWorkItemLoaded: true,
+    })
   }
 
   updateIsContactPage = (input) => {
@@ -43,7 +50,7 @@ class App extends Component {
           <Route exact path='/developer-portfolio/about' render={()=> ( <About updateIsCV={this.updateIsCV} updateIsAboutPage={this.updateIsAboutPage} updateIsContactPage={this.updateIsContactPage}/>)}/>
           <Route exact path='/developer-portfolio/contact' render={()=> (<Contact updateIsCV={this.updateIsCV} updateIsContactPage={this.updateIsContactPage} updateIsAboutPage={this.updateIsAboutPage}/>)} />
           <Route exact path='/developer-portfolio/cv' render={()=> (<CV  updateIsCV={this.updateIsCV} updateIsContactPage={this.updateIsContactPage} updateIsAboutPage={this.updateIsAboutPage}/>)}/>
-          <Route path='/developer-portfolio/work/:workname' component={WorkItem}/>
+          <Route path='/developer-portfolio/work/:workname' render={(props)=> (<WorkItem {...props} isWorkItemLoaded={this.state.isWorkItemLoaded} workItemLoaded={this.workItemLoaded} />)} />
           <Route path='/' component={Error}/>
         </Switch>
       </div>

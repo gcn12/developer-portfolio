@@ -5,15 +5,8 @@ export const Title = styled.div`
         font-size: 30px;
     }
     @media (max-width: 817px){
-        /* font-size: 25px; */
         font-size: 5vw;
     }
-    /* @media (max-width: 600px){
-        font-size: 20px;
-    }
-    @media (max-width: 400px){
-        font-size: 17px;
-    } */
     text-transform: uppercase;
     align-self: center;
     /* padding-bottom: 25px; */
@@ -28,7 +21,7 @@ export const Container = styled.div`
 export const TopImage = styled.img`
     align-self: center;
     width: 130%; 
-    box-shadow: 5px 10px 15px rgba(40, 40, 40, .4);
+    box-shadow: 5px 10px 15px rgba(40, 40, 40, .8);
     margin: 20px 0;
     @media (max-width: 820px) {
         width: 95%;
@@ -38,7 +31,7 @@ export const TopImage = styled.img`
 export const Image = styled.img`
     align-self: center;
     width: 100%; 
-    box-shadow: 5px 10px 15px rgba(40, 40, 40, .4);
+    box-shadow: 5px 10px 15px rgba(40, 40, 40, .8);
     margin: 15px 0;
     @media (max-width: 820px) {
         margin: 10px 0;
@@ -47,7 +40,7 @@ export const Image = styled.img`
 `
 
 export const ImageMobile = styled.img`
-    box-shadow: 5px 10px 15px rgba(40, 40, 40, .4);
+    box-shadow: 5px 10px 15px rgba(40, 40, 40, .8);
     align-self: center;
     width: 70%; 
     margin: 15px 0;
