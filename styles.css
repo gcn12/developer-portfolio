@@ -1,9 +1,21 @@
-
 @media only screen and (min-width: 810px){
     html {
         margin: 0% 15%;
     }
 }
+
+/* @media only screen and (min-width: 1000px){
+    html {
+        margin: 0% 15%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    html {
+        margin: 0% 5%;
+    }
+} */
+
 
 .Site {
     display: flex;
@@ -49,4 +61,10 @@ footer {
     padding: 0;
     display: flex;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width: 810px){
+    #footer {
+        padding: 2%;
+    }
 }
