@@ -47,7 +47,7 @@ class WorkItem extends Component{
                 key: item.index,
                 src: item.src,
                 href: item.href,
-                onLoad: imageLoaded
+                onLoad: this.props.isWorkItemLoaded ? null : imageLoaded
             },
             item.value && 
             (typeof item.value === 'string' ? item.value : item.value.map(i => this.renderer(i)))
