@@ -100,6 +100,7 @@ export const workItemAssets = {
             {
                 type: 'img',
                 index: 17,
+                load: true,
                 src: 'https://live.staticflickr.com/65535/50428920648_783169ce58_b.jpg'
             },
         ]
@@ -183,6 +184,7 @@ export const workItemAssets = {
             {
                 type: 'imgMobile',
                 index: 15,
+                load: true,
                 src: 'https://live.staticflickr.com/65535/50429616256_ecb2d20ee4_h.jpg'
             },
         ]
@@ -256,6 +258,7 @@ export const workItemAssets = {
             {
                 type: 'imgMobile',
                 index: 13,
+                load: true,
                 src: 'https://live.staticflickr.com/65535/50429793832_48d33bb960_h.jpg',
             },
         ]

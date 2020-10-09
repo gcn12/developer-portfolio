@@ -38,8 +38,9 @@ const ElementMap = {
 
 class WorkItem extends Component{
     renderer = (item) => {
-        const imageLoaded = () => {
+        const imageLoaded = (input) => {
             this.props.workItemLoaded()
+            // console.log(input)
         }
         return React.createElement(
             ElementMap[item.type],
@@ -47,7 +48,8 @@ class WorkItem extends Component{
                 key: item.index,
                 src: item.src,
                 href: item.href,
-                onLoad: this.props.isWorkItemLoaded ? null : imageLoaded
+                // onLoad: this.props.isWorkItemLoaded ? null : ()=>imageLoaded(item.index)
+                onLoad: item.load ? ()=>imageLoaded(item.index) : null
             },
             item.value && 
             (typeof item.value === 'string' ? item.value : item.value.map(i => this.renderer(i)))
