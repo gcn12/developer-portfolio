@@ -20,7 +20,7 @@ export const Container = styled.div`
 
 export const TopImage = styled.img`
     align-self: center;
-    width: 130%; 
+    width: 100%; 
     box-shadow: 5px 10px 15px rgba(40, 40, 40, .8);
     margin: 20px 0;
     @media (max-width: 820px) {
@@ -30,7 +30,7 @@ export const TopImage = styled.img`
 
 export const Image = styled.img`
     align-self: center;
-    width: 100%; 
+    width: 85%; 
     box-shadow: 5px 10px 15px rgba(40, 40, 40, .8);
     margin: 15px 0;
     @media (max-width: 820px) {
@@ -42,7 +42,7 @@ export const Image = styled.img`
 export const ImageMobile = styled.img`
     box-shadow: 5px 10px 15px rgba(40, 40, 40, .8);
     align-self: center;
-    width: 70%; 
+    width: 50%; 
     margin: 15px 0;
     @media (max-width: 820px) {
         margin: 10px 0;
@@ -106,6 +106,9 @@ export const CreatedWith = styled.div`
     @media (min-width: 817px) {
         padding: 0 20% 0 20%;
         font-size: 30px;
+    }
+    @media (max-width: 817px) {
+        padding: 0 3% 0 3%;
     }
 `
 
