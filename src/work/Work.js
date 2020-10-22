@@ -18,18 +18,16 @@ class Work extends Component {
 
     render() {
         return(
-            // <Container>
-                <WorkContainer>
-                    {Object.values(workAssets).map((work, index) => {
-                        return(
-                            <div key={index}>
-                                <Link to={`work/${Object.keys(workAssets)[index]}`}><Icon key={index} src={work.icon} alt='project icons'/></Link>
-                                <Title>{work.title}</Title>
-                            </div>
-                        )
-                    })}
-                </WorkContainer>
-            // </Container>
+            <WorkContainer>
+                {Object.values(workAssets).map((work, index) => {
+                    return(
+                        <div key={index}>
+                            <Link to={`work/${Object.keys(workAssets)[index]}`}><Icon key={index} src={work.icon} alt='project icons'/></Link>
+                            <Title>{work.title}</Title>
+                        </div>
+                    )
+                })}
+            </WorkContainer>
         )
     }
 }

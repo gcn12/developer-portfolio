@@ -5,7 +5,7 @@ export const WorkContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    @media (max-width: 700px) {
+    @media (max-width: 815px) {
         justify-content: center;
     }
     @media (min-width: 1100px) {
@@ -13,31 +13,18 @@ export const WorkContainer = styled.div`
     }
 `
 
-// export const Container = styled.div`
-//     @media (max-width: 1000px) {
-//         margin: 0% 10%;
-//     }
-
-// `
-
-// @media only screen and (max-width: 1000px){
-//     html {
-//         margin: 0% 5%;
-//     }
-// }
-
 export const Icon = styled.img`
     @media(min-width: 1100px){
-        width: 20vw;
-        height: 20vw;
+        width: 25vw;
+        height: 25vw;
     }
     @media(max-width: 1100px){
-        width: 30vw;
-        height: 30vw;
+        width: 37vw;
+        height: 37vw;
         min-height: 200px;
         min-width: 200px;
     }
-    @media(max-width: 700px){
+    @media(max-width: 815px){
         width: 70vw;
         height: 70vw;
         min-height: 310px;
